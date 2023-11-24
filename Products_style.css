@@ -1,0 +1,93 @@
+@import url(https://db.onlinewebfonts.com/c/df14e18d9891b8928d15a6143bbe40e3?family=Catseye+W00+Bold);
+@font-face {
+    font-family: "Catseye W00 Bold";
+    src: url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.eot");
+    src: url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.svg#Catseye W00 Bold")format("svg");
+}
+
+body{
+    background-color: #2a1250;
+}
+
+h1 {
+    color: gold;
+}
+
+.product-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-color: black;
+    text-align: left;
+    color: gold;
+    font-family: "Catseye W00 Bold";
+    background-color: #502d8b;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    background-color: #161431;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.navbar {
+    background-color: #161442;
+    padding: 10px;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-right: auto;
+        margin-left: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar a:active {
+    color: gold;
+}
+
+@media (max-width: 768px) {
+}

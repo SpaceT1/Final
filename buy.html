@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willy Wonka Factory</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://db.onlinewebfonts.com/c/df14e18d9891b8928d15a6143bbe40e3?family=Catseye+W00+Bold" rel="stylesheet">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <img src="images/wanka logo.png" alt="Logo" class="navbar-logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link color-white" href="main.html">Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color-white" href="History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Products.html">Sweets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="buy.html">Buy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="film.html">Film</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Awards.html">Awards</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Contact Page Content -->
+<section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact Willy Wonka Factory</h2>
+      <p>Do want to order or just want to share your magical experience? Reach out to us!</p>
+  
+      <!-- Contact Form -->
+      <form>
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+        </div>
+  
+        <div class="form-group">
+          <label for="exampleInputEmail">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+  
+        <div class="form-group">
+          <label for="message">Message and odger list</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Type your message here"></textarea>
+        </div>
+  
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="images/wanka logo.png" alt="Wonka's Candy Company Logo" class="footer-logo">
+    &copy; 2023 Wonka's Candy Company. All Rights Reserved.
+</footer>
+
+
+<script>
+    var buttons = document.getElementsByClassName("navbar")[0].getElementsByTagName("a");
+
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function() {
+            this.style.color = "gold";
+        });
+
+        buttons[i].addEventListener("mouseover", function() {
+            this.style.color = "yellow";
+        });
+
+        buttons[i].addEventListener("mouseout", function() {
+            this.style.color = "white";
+        });
+        buttons[i].addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                this.style.color = "gold";
+            }
+        });
+    }
+</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

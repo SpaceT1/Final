@@ -1,0 +1,168 @@
+/* Global Styles */
+
+@import url(https://db.onlinewebfonts.com/c/df14e18d9891b8928d15a6143bbe40e3?family=Catseye+W00+Bold);
+
+@font-face {
+    font-family: "Catseye W00 Bold";
+    src: url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.eot");
+    src: url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/df14e18d9891b8928d15a6143bbe40e3.svg#Catseye W00 Bold")format("svg");
+}
+body {
+    background-color: white;
+    color: white;
+    font-family: 'Van-rundschrift', sans-serif;
+  }
+  
+  /* Navigation Bar Styles */
+
+  .navbar {
+    background-color: #161431;
+    padding: 10px;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-right: auto;
+        margin-left: 0;
+}
+  
+  /* Carousel Styles */
+  .carousel-inner img {
+    height: 100%;
+  }
+  
+  /* Newest Products Section Styles */
+  #newest-products {
+    color: white;
+    background-color: #161431;
+      font-family: "Catseye W00 Bold", sans-serif;
+  }
+  
+  
+ 
+  
+
+  /* Location Section Styles */
+#location {
+    background-color: #161431;
+    color: white;
+    padding: 50px 20px;
+    text-align: center; /* Center-aligning text */
+  }
+  
+  #location h2 {
+      font-family: "Catseye W00 Bold", sans-serif;
+  }
+  
+  #location p {
+    font-size: 18px;
+      font-family: 'Van-rundschrift', sans-serif
+  }
+  
+  #location .visit-photo {
+    float: right;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Us Page Styles */
+  #about-us {
+    background: url('images/fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: "Catseye W00 Bold";
+  }
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #contact {
+    background: url('images/fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding as needed */
+  }
+  #contact h2,
+  #contact p {
+    text-align: center;
+  }
+  
+  #contact form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact form label {
+    font-weight: bold;
+  }
+  
+  #contact form textarea {
+    resize: vertical;
+  }
+  
+  #contact form button {
+    background-color: #ff9900;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact form button:hover {
+    background-color: #e68a00;
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar a:active {
+    color: gold;
+}
+
+
+.footer {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    background-color: #161431;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+  @media (max-width: 768px) {
+  }
+  

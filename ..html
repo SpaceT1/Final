@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример изменения цвета текста при наведении и нажатии на кнопки</title>
+    <style>
+        .navbar {
+            background-color: #f1f1f1;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: color 0.3s; /* Добавляем плавный переход цвета */
+        }
+
+        .navbar a:hover {
+            color: yellow; /* Изменяем цвет на желтый при наведении */
+        }
+
+        .navbar a:active {
+            color: gold; /* Изменяем цвет на золотой при нажатии */
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a id="homeButton" href="#">Главная</a>
+    <a id="aboutButton" href="#">О нас</a>
+    <a id="contactButton" href="#">Контакты</a>
+</div>
+
+<script>
+    var buttons = document.getElementsByClassName("navbar")[0].getElementsByTagName("a");
+
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function() {
+            this.style.color = "gold"; // Изменяем цвет текста на золотой при нажатии
+        });
+
+        buttons[i].addEventListener("mouseover", function() {
+            this.style.color = "yellow"; // Изменяем цвет текста на желтый при наведении
+        });
+
+        buttons[i].addEventListener("mouseout", function() {
+            this.style.color = "#333"; // Восстанавливаем исходный цвет текста после окончания наведения
+        });
+    }
+</script>
+
+</body>
+</html>
